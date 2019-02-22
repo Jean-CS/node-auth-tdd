@@ -1,8 +1,13 @@
 # Node.js Login App with TDD (Jest)
 
+This projects uses:
+
+- Jest for handling all tests.
+- PostgreSQL for the development/production database and SQLite for the testing database.
+
 ## Tests
 
-In this project we make use of Unit and Integrations tests
+In this project we make use of Unit and Integrations tests.
 
 ### Unit Tests
 
@@ -21,6 +26,14 @@ This is where we test functions that call api's, database calls, etc.
 - **Nodemon**
 
   For automatically restart the node server everytime you save
+
+- **Dotenv**
+
+  Allows loading of environment variables
+
+- **Sqlite3**
+
+  We use sqlite for the testing environment database
 
 - **Sequelize** - `yarn add sequelize pg`
 
