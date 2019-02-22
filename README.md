@@ -23,6 +23,10 @@ This is where we test functions that call api's, database calls, etc.
 
   Universal javascript testing tool suite (test runners, expects, function mocks, stub, coverage, etc.)
 
+- **supertest**
+
+  Make web request on your tests
+
 - **Nodemon**
 
   For automatically restart the node server everytime you save
