@@ -27,6 +27,22 @@ This is where we test functions that call api's, database calls, etc.
 
   Make web request on your tests
 
+- **bcrypt**
+
+  For encrypting user passwords
+
+- **jsonwebtoken**
+
+  For generating JWT tokens
+
+- **factory-girl**
+
+  For automating and coupling user creation in the test suites
+
+- **cross-env**
+
+  For loading environment variables from yarn commands (Because of Windows)
+
 - **Nodemon**
 
   For automatically restart the node server everytime you save
