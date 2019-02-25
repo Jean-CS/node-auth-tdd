@@ -13,14 +13,14 @@ describe("Authentication", () => {
     const user = await User.create({
       name: "Placeholder",
       email: "placeholder@node.com.br",
-      password_hash: "123123"
+      password: "123123"
     });
 
     const response = await request(app)
       .post("/sessions")
       .send({
         email: user.email,
-        password: "123456"
+        password: "123123"
       });
 
     expect(response.status).toBe(200);
