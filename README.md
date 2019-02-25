@@ -39,27 +39,31 @@ This is where we test functions that call api's, database calls, etc.
 
   For automating and coupling user creation in the test suites
 
-- **cross-env**
+- **faker**
+
+  For generating fake data in our tests
+
+* **cross-env**
 
   For loading environment variables from yarn commands (Because of Windows)
 
-- **Nodemon**
+* **Nodemon**
 
   For automatically restart the node server everytime you save
 
-- **Dotenv**
+* **Dotenv**
 
   Allows loading of environment variables
 
-- **Sqlite3**
+* **Sqlite3**
 
   We use sqlite for the testing environment database
 
-- **Sequelize** - `yarn add sequelize pg`
+* **Sequelize** - `yarn add sequelize pg`
 
   Promise-based ORM for Node.js. It supports PostgreSQL, MySQL, SQLite and MSSQL.
 
-- **Sequelize CLI** - `yarn add sequelize-cli`
+* **Sequelize CLI** - `yarn add sequelize-cli`
 
   Tool to manage migrations with sequelize
 
